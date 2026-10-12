@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "app-personal-finance",
-    "slug": "app-personal-finance",
+    "name": "Personal Finance",
+    "slug": "personal-finance",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -19,7 +19,22 @@
       "predictiveBackGestureEnabled": false
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "bundler": "metro",
+      "output": "single",
+      "favicon": "./assets/favicon.png",
+      "name": "Personal Finance",
+      "shortName": "Finance",
+      "themeColor": "#15171A",
+      "backgroundColor": "#F4F2EC",
+      "lang": "pt-BR"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ],
+    "scheme": "personalfinance",
+    "experiments": {
+      "typedRoutes": false
     }
   }
 }
